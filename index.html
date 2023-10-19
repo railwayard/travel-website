@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://db.onlinewebfonts.com/c/038217ddbf550f2a38e4ad5481356cc2?family=font93" rel="stylesheet" type="text/css"/>
+
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <title>Tour website landing page</title>
+
+    </head>
+    <body>
+        
+        <header>
+            <a href="" class="logo">Journey</a>
+            <ul class="nav">
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Special Offers</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li class="booking">
+                    <a href="#">Booking <ion-icon name="add-outline"></ion-icon></a>
+                </li> 
+            </ul>
+           <a href="#" class="menu" onclick="toggleMenu();"><ion-icon name="grid-outline"></ion-icon></a>
+        </header>
+            <ul class="nav-mobile">
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Deals</a></li>
+                <li><a href="#">Special Offers</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li class="booking">
+                    <a href="#">Booking <ion-icon name="add-outline"></ion-icon></a>
+                </li> 
+            </ul>
+
+        <!-- Slider main container -->
+        <div class="swiper banner-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <!-- home page slider -->
+                <div class="swiper-slide">
+                    <div class="banner">
+                        <img src="assets/images/forest 3.jpg" alt="">
+                        <div class="shade">
+                            <img src="assets/images/map.png" alt="" class="map">
+                        </div>
+                        <div class="content-left">
+                            <h1>Austr</h1>
+                            <div class="description">
+                                <h3>Discover Oceania</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                </p>
+                                <a href="#">Start now</a>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <h1>al<span>i</span>a</h1>
+                            <p class="text-slide">Rainforestation Nature Park</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- great barrier reef slides -->
+                <div class="swiper-slide">
+                    <div class="banner">
+                        <img src="assets/images/coral reef.jpg" alt="">
+                            <div class="shade"></div>
+                            <div class="drop">
+                                <video src="assets/asset/pexels_videos_1631763 (1080p).mp4" loop autoplay muted ></video>
+                            </div>
+                            <div class="content-left">
+                                <h1>Cora</h1>
+                                <div class="description">
+                                    <h3>Discover Oceania</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                    </p>
+                                    <a href="#">Start now</a>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <h1>l<span>R</span>eef</h1>
+                                <p class="text-slide">Rainforestation Nature Park</p>
+                            </div>  
+                    </div>
+                </div>
+                <!-- rain forest slider -->
+                <div class="swiper-slide">
+                    <div class="banner">
+                        <img src="assets/images/forest-1.jpg" alt="">
+                        <div class="shade"></div> 
+                        <div class="drop">
+                            <video src="assets/asset/forest.mp4" loop autoplay muted ></video>
+                        </div>
+                        <div class="content-left">
+                            <h1>RainF</h1>
+                            <div class="description">
+                                <h3>Discover Oceania</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                </p>
+                                <a href="#">Start now</a>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <h1>or<span>e</span>st</h1>
+                            <p class="text-slide">Rainforestation Nature Park</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- palm cove slider -->
+                <div class="swiper-slide">
+                    <div class="banner">
+                        <img src="assets/images/beach-1.jpg" alt="">
+                        <div class="shade"></div>
+                        <div class="drop">
+                            <video src="assets/asset/palm-cove.mp4" loop autoplay muted ></video>
+                        </div> 
+                        <div class="content-left">
+                            <h1>Palm</h1>
+                            <div class="description">
+                                <h3>Discover Oceania</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                </p>
+                                <a href="#">Start now</a>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <h1>Co<span>v</span>e</h1>
+                            <p class="text-slide">Rainforestation Nature Park</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="control">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <ul class="sci">
+                <li>
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                </li>
+                <li>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                </li>
+                <li>
+                    <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                </li>
+                <li>
+                    <a href="#" class="share">
+                        <ion-icon name="share-social-outline"></ion-icon></a>
+                </li>
+            </ul>
+
+            <div class="ask-us">
+                <p>Ask Us</p>
+                <a href="#" class="chat">
+                    <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </a>
+            </div>
+     
+        </footer>
+
+        <script
+            type="module" 
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+        </script>
+        <script 
+            nomodule 
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+        </script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script src="assets/js/swiper.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
